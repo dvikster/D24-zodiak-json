@@ -4,3 +4,37 @@ h1{
 h3{
     font-size: 20px;
 }
+.sidebar{
+    margin-top: 90px;
+}
+.sidebar a{
+    color: #500082;
+}
+header{
+    background-color: #500082;}
+header h1{
+    color: white;
+}
+.btn, .btn-large {
+    background-color: #500082;
+}
+
+.btn:hover, .btn-large:hover {
+    background-color: #500082;
+}
+.page-footer{
+    background-color: #500082;
+    padding-top: 0;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.main-content {
+    margin-bottom: 100px;
+}
+.page-footer .footer-copyright{
+    background-color: #500082;
+    color: white;
+}
+

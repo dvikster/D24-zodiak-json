@@ -12,7 +12,6 @@
 </head>
 <body>
 <header></header>
-<nav></nav>
 
 <div class="container">
     <div class="row">
@@ -20,30 +19,13 @@
             <div class="sidebar"></div>
         </div>
         <div class="main-content col s12 m12 l8">
-            <h1>Камни знака зодиака</h1>
-            <!--<p>Выберите день</p>-->
+            <h1>Число судьбы</h1>
+            <p>Выберите день вашего рождения</p>
+            <input type="date" class="datepicker">
             <p class="input-field">
-                <select id="stone" class="browser-default">
-                    <option value="" disabled selected>Выберите свой знак </option>
-                    <option value="Овен">Овен </option>
-                    <option value="Телец">Телец</option>
-                    <option value="Близнецы">Близнецы</option>
-                    <option value="Рак">Рак</option>
-                    <option value="Лев">Лев</option>
-                    <option value="Дева">Дева</option>
-                    <option value="Весы">Весы</option>
-                    <option value="Скорпион">Скорпион</option>
-                    <option value="Стрелец">Стрелец</option>
-                    <option value="Козерог">Козерог</option>
-                    <option value="Водолей">Водолей</option>
-                    <option value="Рыбы">Рыбы</option>
-                </select>
+                <a id="know-number" class="waves-effect waves-light btn">узнать число судьбы</a>
             </p>
-            <p class="input-field">
-                <a id="#know-number" class="waves-effect waves-light btn">узнать число судьбы</a>
-            </p>
-            <div class="stones-desc"></div>
-
+            <div class="number-desc"></div>
         </div>
 
     </div>
@@ -55,7 +37,6 @@
 <script src="js/materialize.min.js"></script>
 <script src="js/template.js"></script>
 <!--<script src="js/js.js"></script>-->
-<!--<script src="js/stones.js"></script>-->
 <script src="js/number.js"></script>
 </body>
 </html>
