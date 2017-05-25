@@ -25,9 +25,18 @@ function getSignDescription() {
 function identifySign(){
     day = $('#day').val();
     month = $('#month').val();
+    // for (key in signArray){
+    //     if(key == 'Козерог' && (day <= 20 && month == 'Январь') || (day <= 20 && month == 'Январь')) {
+    //         getSignDescription();
+    //     }
+    //     if(key == 'Водолей' && (day >= 20 && month == 'Январь') || (day <= 20 && month == 'Январь')){
+    //         getSignDescription();
+    //     }
+    // }
+
+
     switch (month){
         case'Январь':
-            console.log('Январь!');
             if(day <= 20){
                 for (key in signArray){
                     if(key == 'Козерог') {

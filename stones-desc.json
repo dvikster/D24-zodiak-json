@@ -1,0 +1,4 @@
+{
+  "Алмаз" :  [{ "image" : "img/1.gif",  "description" : "Описание Алмаз", "signstone" :["Телец","Овен"]}],
+  "Бирюза" : [{ "image" : "img/2.gif",  "description" : "Описание Бирюза", "signstone" :["Овен"]} ]
+}
