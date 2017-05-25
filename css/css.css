@@ -38,3 +38,8 @@ header h1{
     color: white;
 }
 
+.horoscope .horoscope a,
+.stones .stones a,
+.number .number a{
+    font-weight: bold;
+}
