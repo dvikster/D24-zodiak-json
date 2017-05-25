@@ -1,2 +1,2 @@
-# D24-zodiak-json
-D24 Upscale task
+# 23-template-site-ajax-load
+23 template site ajax load
